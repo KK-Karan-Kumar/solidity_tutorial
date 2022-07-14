@@ -1,3 +1,7 @@
+// SPDX-License-Identifier: GPL-3.0
+
+pragma solidity >=0.7.0 <0.9.0;
+
 //value type
 
 //value type variables store their own data. These are the basic data types provided by solidity. these types of variables are awlways passed by value. The variables are copied wherever they are used in function arguments a=or assignment. Value type data types in solidity are listed Below:
@@ -12,10 +16,6 @@
 
 //Enums: it is used to create user-defined data types, used to assign a name to an integer constant which makes the contact more readable, maintainable, and less prone to errors. Options of enums can be represented by unsigned interger values started from 0.
 
-
-//SPDX-Licenes-Identifier: Unlicensed
-
-pragma solidity >=0.7.0;
 
 contract Variable{
     //all are atate variable
