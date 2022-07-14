@@ -45,14 +45,6 @@ contract Variable{
 
 }
 
-//solidity support three types of variables.
-//# State Variables - Variables whose values are permanently stored in a contract storage.
-
-//#Local Variables - Variables whose values are present till the function is executing.
-
-//# Global variables - Special variables exist in the global namespace used to get information about to blockchain.
-
-//solidity is a statically typed language, which means that the stte or local variable type needs to be specified during declaration. Each declared variable always have default value based on its type. There is no concept of "undefined" or "null".
 
 //int range formula positive 2^(n-1)-1 negative 2^(n-1)
 // Uint range Formula: (2^n)-1
