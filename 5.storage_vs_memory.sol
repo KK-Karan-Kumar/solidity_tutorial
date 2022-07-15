@@ -9,3 +9,21 @@ pragma solidity >=0.7.0 <0.9.0;
 //     1.State variables and Local Variables of structs, array are always stored in storage by default.
 //     2.Function arguments are in memory.
 //     3,Whenever a new instance of an array is created using the keyword ‘memory’, a new copy of that variable is created. Changing the array value of the new instance does not affect the original array.
+
+
+contract sorvsmem{
+
+    //this is in storage that's why this will take some amount of ether (cost)
+    uint public val = 34;
+    //this two function running in ram not in not in database so no need to worry about cost
+
+    //for uint int and address data type you don't need to write memory keyword it's already their
+    function sendadd()public view returns(address){
+        return msg.sender;
+    }
+
+    //but for other datatype you need to spacify memory keyword
+    function add(string memory name)public pure returns(string memory){
+        return name;
+    }
+}
