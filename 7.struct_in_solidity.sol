@@ -3,6 +3,7 @@
 pragma solidity >=0.7.0 <0.9.0;
 
 
+// struct
 // Structs in Solidity allows you to create more complicated data types that have multiple properties. You can define your own type by creating a struct.
 
 // They are useful for grouping together related data.
