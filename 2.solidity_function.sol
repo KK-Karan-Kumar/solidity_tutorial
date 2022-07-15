@@ -7,14 +7,6 @@ pragma solidity >=0.7.0 <0.9.0;
 //A function is a block of code that perform a task. it can be called andreused multiple times, You can pass informatio to a function and it can send information back
 
 
-//solidity variable scopes
-
-//# public - public state variables can be accessed internaly as wll as via messages. for a public state variable, an automatic getter function is generated.
-
-//# Internal - internal state variables can be accessed only internally from the current contract or contract deriving from it without using this.
-
-//# Privite - Private state variables can ve accessed onlu internally from the current contract they are defined not in the derived contract from it.
-
 
 contract functions{
     uint public val = 4;
