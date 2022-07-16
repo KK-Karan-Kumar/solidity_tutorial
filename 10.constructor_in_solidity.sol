@@ -22,7 +22,7 @@ contract Derived is Base(10){
 
 //method2
 contract Derived2 is Base{
-    constructor() Base(30){
+    constructor() Base(30){       
         
     }
 }
